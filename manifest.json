@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Eden Mate",
+  "version": "1.1",
+  "description": "Eden Chat 채팅 흐름을 한결 편하게 돕는 응답 알림, 접두사 프리셋, 채팅 통계 확장 프로그램",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "notifications",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://www.eden-chat.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Eden Mate",
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "options_page": "options.html",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fonts/PretendardVariable.woff2"
+      ],
+      "matches": [
+        "https://www.eden-chat.com/*"
+      ]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.eden-chat.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}

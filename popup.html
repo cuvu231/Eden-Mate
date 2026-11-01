@@ -1,0 +1,27 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="stylesheet" href="ui.css"><title>Eden Mate</title></head>
+<body class="popup"><div class="popup-shell"><header class="brand"><img class="mark" src="icon.png" alt=""><div><div class="brand-name">Eden <span>Mate</span></div><div class="sub">채팅 흐름을 한결 편하게</div></div><span class="live"><i></i> 연결됨</span><button id="openSettings" class="settings-link" type="button"><span>⚙</span> 설정</button></header>
+<main>
+<button id="openLastChat" class="last-chat-button" type="button" disabled><span class="last-chat-icon">↗</span><span class="last-chat-copy"><b>마지막 채팅방으로 이동</b><small id="lastChatName">Eden Chat에서 채팅방을 열면 여기에 표시돼요.</small></span><span class="last-chat-arrow">→</span></button>
+<div class="popup-intro"><b>빠른 설정</b><span>기능별로 켜고 끌 수 있어요.</span></div>
+<section class="settings-group" aria-label="응답 알림 설정"><h2><span class="group-icon violet">♫</span>응답 알림</h2><div class="control-list">
+<div class="control-row"><div class="control-copy"><b>완료 알림</b><small>데스크톱 알림 표시</small></div><label class="switch"><input id="notifications" type="checkbox" aria-label="완료 알림"><span></span></label></div>
+<div class="control-row"><div class="control-copy"><b>알림 소리</b><small>응답 완료 때 재생</small></div><label class="switch"><input id="sound" type="checkbox" aria-label="알림 소리"><span></span></label></div>
+<div class="control-row"><div class="control-copy"><b>반복 알림</b><small>Eden Chat으로 돌아올 때까지 반복</small></div><label class="switch"><input id="repeatAlarm" type="checkbox" aria-label="반복 알림"><span></span></label></div>
+<div class="control-row"><div class="control-copy"><b>채팅 중 무음</b><small>채팅 화면을 보고 있을 때 소리 끄기</small></div><label class="switch"><input id="muteAlarmWhenViewingChat" type="checkbox" aria-label="채팅 중 무음"><span></span></label></div>
+</div></section>
+<section class="settings-group" aria-label="접두사 설정"><h2><span class="group-icon peach">✦</span>접두사</h2><div class="control-list">
+<div class="control-row"><div class="control-copy"><b>접두사 사용</b><small>단축키와 프리셋 입력</small></div><label class="switch"><input id="prefixEnabled" type="checkbox" aria-label="접두사 사용"><span></span></label></div>
+<div class="control-row"><div class="control-copy"><b>입력칸 클릭 시 자동 입력</b><small>빈 입력칸을 누르면 접두사 입력</small></div><label class="switch"><input id="autoInsertOnComposerClick" type="checkbox" aria-label="입력칸 클릭 시 자동 입력"><span></span></label></div>
+</div><div class="group-footer"><div class="section-head"><h3>저장된 프리셋</h3><button id="openOptions" class="text-button" type="button">편집 <span>↗</span></button></div><div id="prefixList" class="prefix-list"></div></div></section>
+<section class="settings-group" aria-label="채팅 통계 설정"><h2><span class="group-icon violet">▤</span>채팅 통계</h2><div class="control-list"><div class="control-row"><div class="control-copy"><b>통계 창 표시</b><small>채팅 옆에 사용량과 활동 표시</small></div><label class="switch"><input id="showConversationStats" type="checkbox" aria-label="통계 창 표시"><span></span></label></div></div></section>
+<footer><span class="status-dot"></span><span id="status">Eden Chat에서 사용할 수 있어요</span><span class="version">v1.1</span></footer></main></div><script src="popup.js"></script></body></html>
+
+
+
+
+
+
+
+
+
+
