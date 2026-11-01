@@ -8,11 +8,6 @@
   ![Manifest V3](https://img.shields.io/badge/Manifest-V3-7C5CE7)
   ![Version](https://img.shields.io/badge/version-1.1-8B6CE2)
 
-  <p>
-    <a href="https://github.com/cuvu231/Eden-Mate/archive/refs/heads/main.zip">
-      <img src="https://img.shields.io/badge/Download-ZIP-7C5CE7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="최신 버전 다운로드">
-    </a>
-  </p>
 </div>
 
 ---
@@ -32,9 +27,19 @@ Eden Mate는 Eden Chat에서 자주 쓰는 접두사를 빠르게 입력하고, 
 
 ## 설치
 
+### Eden Mate 다운로드
+
+<p align="center">
+  <a href="https://github.com/cuvu231/Eden-Mate/archive/refs/heads/main.zip">
+    <img src="download-button.svg" alt="Eden Mate 다운로드 ZIP" width="280" height="64">
+  </a>
+</p>
+
+ZIP을 다운로드하고 압축을 푼 뒤 아래 순서대로 설치하세요.
+
 ### Chrome 또는 Edge에 개발자 모드로 설치
 
-1. 저장소를 다운로드하거나 복제합니다.
+1. 압축을 푼 Eden Mate 폴더를 준비합니다. 저장소를 직접 복제해도 됩니다.
 2. `chrome://extensions` 또는 `edge://extensions`를 엽니다.
 3. **개발자 모드**를 켭니다.
 4. **압축해제된 확장 프로그램을 로드**를 선택하고 이 저장소 폴더를 지정합니다.

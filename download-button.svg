@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="128" viewBox="0 0 560 128" role="img" aria-labelledby="title">
+  <title id="title">Eden Mate 다운로드 ZIP</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7250cf"/>
+      <stop offset="0.56" stop-color="#8b62d8"/>
+      <stop offset="1" stop-color="#b66e99"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="554" height="122" rx="28" fill="url(#sky)" stroke="#ffffff" stroke-opacity="0.24" stroke-width="2"/>
+  <path d="M26 4h508c-45 24-111 37-201 37H3V27C3 14 13 4 26 4Z" fill="url(#shine)"/>
+  <circle cx="66" cy="64" r="29" fill="#ffffff" fill-opacity="0.16"/>
+  <path d="M66 43v31m-13-12 13 13 13-13M51 85h30" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="116" y="59" fill="#fff" font-family="Arial, Pretendard, sans-serif" font-size="25" font-weight="700">Eden Mate</text>
+  <text x="116" y="89" fill="#f4edff" font-family="Arial, Pretendard, sans-serif" font-size="17" font-weight="500">Chrome · Edge용 ZIP 다운로드</text>
+  <path d="m509 55 9 9-9 9m-12-9h21" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
