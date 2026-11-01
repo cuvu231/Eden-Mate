@@ -7,6 +7,12 @@
   ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)
   ![Manifest V3](https://img.shields.io/badge/Manifest-V3-7C5CE7)
   ![Version](https://img.shields.io/badge/version-1.1-8B6CE2)
+
+  <p>
+    <a href="https://github.com/cuvu231/Eden-Mate/archive/refs/heads/main.zip">
+      <img src="https://img.shields.io/badge/Download-ZIP-7C5CE7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="최신 버전 다운로드">
+    </a>
+  </p>
 </div>
 
 ---
